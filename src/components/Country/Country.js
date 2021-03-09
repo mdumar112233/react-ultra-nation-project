@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import './Country.css';
 import { Link, useHistory } from 'react-router-dom';
+import './Country.css';
 
 const useStyles = makeStyles({
   root: {
@@ -26,6 +27,7 @@ const Country = (props) => {
     }
     const classes = useStyles();
     return (
+      <div className='country'>
         <Card className={classes.root}>
         <CardActionArea>
           <CardMedia
@@ -53,6 +55,8 @@ const Country = (props) => {
           </Button>
         </CardActions>
       </Card>
+      </div>
+
     );
 };
 

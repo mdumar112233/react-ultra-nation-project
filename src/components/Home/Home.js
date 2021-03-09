@@ -14,18 +14,11 @@ const Home = () => {
         .then(data => setCountrys(data))
     }, [])
 
-
     return (
         <div className='main-container'>
-            <div>
-
-            </div>
-            <div className='all-country' display='flex'>
                 {
                     countrys.map(country => <Country countrys={country}></Country>)
                 }
-            </div>
-
         </div>
     );
 };
