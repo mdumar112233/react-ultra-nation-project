@@ -1,0 +1,11 @@
+.main-container{
+    width: 80%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    display: flex;
+}
+.main-container .all-country{
+    /* width: 360px;
+    height: auto; */
+    float: left;
+}
